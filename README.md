@@ -3,7 +3,7 @@ Line Challenge for Golang Developer Candidate
 
 
 ## Getting Started
-recommended to turn on DEBUG mode by go to /go-healthcheck/main.go and change value of DEBUG variable to `true`
+recommended to turn on DEBUG mode by go to `/go-healthcheck/main.go` and change value of DEBUG variable to `true`
 ```
 $ cd go-healthcheck
 $ go install -v .
@@ -41,16 +41,16 @@ ok  	go-healthcheck	3.434s
 
 ## Test Set 
 I've created csv test set in vairous size 
-* test.csv => normal test set consist of 5 URL
-* tiny-test.csv => vary small set consist of 25 Record, some record is not real URL
-* small-test.csv => small set consist of 40 URL
-* medium-test.csv => medium set consis of 100 URL
-* large-test.csv => consis of 1,721 URL 
+* `test.csv` => normal test set consist of 5 URL
+* `tiny-test.csv` => vary small set consist of 25 Record, some record is not real URL
+* `small-test.csv` => small set consist of 40 URL
+* `medium-test.csv` => medium set consis of 100 URL
+* `large-test.csv` => consis of 1,721 URL 
 
 ## Performance
 I've test performance by using each test set above on my Macbook Pro 2015 (Dual Core i5 CPU Ram 8 GB)
 | Test Set        |  Time   |
-|-----------------|---------|
+| --------------- | ------- |
 | test.csv        | 2.54s   |
 | tiny-test.csv   | 3.50s   |
 | small-test.csv  | 30.00s  |
