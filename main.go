@@ -115,9 +115,6 @@ func DisplayHealthSummary() {
 // SendHealthReport perform Http Post to Healthcheck Report API with Authorization Header
 func SendHealthReport() {
 	url := healthcheckReportURL
-	if DEBUG {
-		url = "http://ptsv2.com/t/mikael_toliet/post"
-	}
 
 	message := map[string]interface{}{
 		"total_websites": totalCount,
