@@ -49,13 +49,13 @@ I've created csv test set in vairous size
 
 ## Performance
 I've test performance by using each test set above on my Macbook Pro 2015 (Dual Core i5 CPU Ram 8 GB)
-| Test Set | Time |
-| :---: | :---: |
-| test.csv | 2.54 s |
-| tiny-test.csv | 3.50 s|
-| small-test.csv | 30.00 s |
-| medium-test.csv | 4m31s |
-| large-test.csv | 00 |
+| Test Set        |  Time   |
+|-----------------|---------|
+| test.csv        | 2.54s   |
+| tiny-test.csv   | 3.50s   |
+| small-test.csv  | 30.00s  |
+| medium-test.csv | 4m31s   |
+| large-test.csv  | 4m33s   |
 
 
 ## Task List
