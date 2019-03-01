@@ -7,7 +7,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -131,7 +130,6 @@ func SendHealthReport() {
 	if err != nil {
 		log.Fatal("Error reading request. ", err)
 	}
-
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("Authorization", "Bearer "+accessToken)
 
@@ -144,10 +142,5 @@ func SendHealthReport() {
 
 	if DEBUG {
 		fmt.Println("Healthcheck Report API response Status: ", resp.Status)
-	}
-
-	_, err = ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatal("Error reading body. ", err)
 	}
 }
