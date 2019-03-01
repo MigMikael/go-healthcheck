@@ -49,6 +49,7 @@ I've created csv test set in vairous size
 
 ## Performance
 I've test performance by using each test set above on my Macbook Pro 2015 (Dual Core i5 CPU Ram 8 GB)
+
 | Test Set        |  Time   |
 | --------------- | ------- |
 | test.csv        | 2.54s   |
